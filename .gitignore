@@ -1,0 +1,62 @@
+# .gitignore for a .NET Console App
+
+# Build output
+bin/
+obj/
+out/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.pidb
+*.userprefs
+
+# NuGet packages and caches
+*.nupkg
+packages/
+.nuget/
+project.assets.json
+project.lock.json
+project.fragment.lock.json
+packages.config
+
+# Publish output
+publish/
+
+# Test results
+TestResults/
+*.trx
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# EF Core Migrations (generated designer files)
+**/Migrations/*.Designer.cs
+
+# Dotnet user secrets & environment-specific config
+secrets.json
+appsettings.Development.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc temp/log files
+*.log
+*.tmp
+*.temp
+
+.env
