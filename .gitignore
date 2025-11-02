@@ -1,5 +1,8 @@
 # .gitignore for a .NET Console App
 
+# Environment variables (contains secrets)
+.env
+
 # Build output
 bin/
 obj/
