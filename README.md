@@ -74,7 +74,7 @@ To use these demos, you need a GitHub personal access token with the `models:rea
 5. Click **"Generate token"** and copy the token (you won't be able to see it again)
 
 ### Video Walkthrough
-[![How to Get a GitHub Token – Video Screenshot](./Images/video.png)](https://drive.google.com/file/d/15yXeESfRivaoXj1350rcwQbAzLaQJfMK/view?usp=sharing)
+[![How to Get a GitHub Token – Video Screenshot](./images/video.png)](https://drive.google.com/file/d/15yXeESfRivaoXj1350rcwQbAzLaQJfMK/view?usp=sharing)
 
 > [Click here to watch the video walkthrough on Google Drive.](https://drive.google.com/file/d/15yXeESfRivaoXj1350rcwQbAzLaQJfMK/view?usp=sharing)
 
@@ -98,17 +98,17 @@ Watch this short video for a step-by-step guide on generating your GitHub person
    - In Azure AI Studio, click Create -> Project (or Foundry -> Create project).
    - Provide a project name, select your Azure subscription, choose or create a resource group, and select the deployment region.
    - Review and create the project.
-     ![Foundry – Step 1](./Images/foundry-step1.png)
-     ![Foundry – Step 2](./Images/foundry-step2.png)
-     ![Foundry – Step 3](./Images/foundry-step3.png)
+     ![Foundry – Step 1](./images/foundry-step1.png)
+     ![Foundry – Step 2](./images/foundry-step2.png)
+     ![Foundry – Step 3](./images/foundry-step3.png)
 
 4. Deploy a model and open the Playground
    - Inside your project, go to Model Catalog (or Models) and pick a model you want to use.
    - Create a deployment (Deploy / Create endpoint). Select model version, compute size, and deployment name, then confirm.
    - After deployment completes, open the Playground in the same project to test the model: select the deployed model from the model dropdown and run a prompt to validate behavior.
-     ![Foundry – Step 4](./Images/foundry-step4.png)
-     ![Foundry – Step 5](./Images/foundry-step5.png)
-     ![Foundry – Step 6](./Images/foundry-step6.png)
+     ![Foundry – Step 4](./images/foundry-step4.png)
+     ![Foundry – Step 5](./images/foundry-step5.png)
+     ![Foundry – Step 6](./images/foundry-step6.png)
 
 5. Retrieve credentials (Model + Endpoint)
    - In the project, open the deployed model’s details and find the “Model + endpoint” (or Endpoints) tab.
@@ -119,9 +119,9 @@ Watch this short video for a step-by-step guide on generating your GitHub person
      API_ENDPOINT=https://<your-endpoint-url>
      API_TOKEN=<your_model_api_key>
      ```
-     ![Foundry – Step 7](./Images/foundry-step7.png)
-     ![Foundry – Step 8](./Images/foundry-step8.png)
-     
+     ![Foundry – Step 7](./images/foundry-step7.png)
+     ![Foundry – Step 8](./images/foundry-step8.png)
+
     
 
 Notes and tips
@@ -193,7 +193,7 @@ dotnet run --project TravelingSupportAgent.csproj
 
 Once you have finished implementing your multi-turn coding assistant chatbot in `TravelingSupportAgent.cs` and submitted your pull request, you will be eligible to receive an official certificate and badge from MLSA.
 
-> ![Sample Certificate and Badge](./Images/certificate-sample.png)
+> ![Sample Certificate and Badge](./images/certificate-sample.png)
 
 **How to claim your certificate and badge:**
 1. Complete all steps in the "Assessment Task" section.
@@ -214,14 +214,14 @@ Once you have finished implementing your multi-turn coding assistant chatbot in 
      ```
    - Create a pull request from your `submission` branch to the `main` branch on the Your repository.
 
-   ![How to Make a PR - Step 1](./Images/pr-image1.png)
-   ![How to Make a PR - Step 2](./Images/pr-image2.png)
+   ![How to Make a PR - Step 1](./images/pr-image1.png)
+   ![How to Make a PR - Step 2](./images/pr-image2.png)
 
     Follow the above images for a visual guide on creating a pull request.
 
    **Tip:** After creating your pull request, copy the PR link from your browser's address bar. You will need this link when creating your submission issue in the next step.
 
-   ![How to Make a PR - Step 3](./Images/pr-image3.png)
+   ![How to Make a PR - Step 3](./images/pr-image3.png)
 
 7. **Create an Issue**
   - Go to the [main repository](https://github.com/nisalgunawardhana/Github-models-starter-pro) and create an issue using the `submission` template.
