@@ -121,6 +121,7 @@ Watch this short video for a step-by-step guide on generating your GitHub person
      ```
      ![Foundry – Step 7](./Images/foundry-step7.png)
      ![Foundry – Step 8](./Images/foundry-step8.png)
+     
     
 
 Notes and tips

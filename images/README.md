@@ -10,6 +10,7 @@ This directory contains sample images for the Image Analysis example.
 
 ## Example Files
 
+
 - `sample.jpg` - Default image used by the ImageAnalysis example
 
 ## Notes
