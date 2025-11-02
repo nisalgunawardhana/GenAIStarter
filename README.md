@@ -13,20 +13,6 @@ A concise collection of runnable .NET sample apps that demonstrate practical int
    - GitHub Models: a Personal Access Token with model access (https://github.com/settings/tokens)
    - Azure AI Foundry: an Azure subscription and a Foundry project with a deployed model and service credentials (endpoint + key or managed identity)
 
-Environment variables (examples — set one provider's values as appropriate):
-
-For GitHub Models:
-```
-API_ENDPOINT=https://models.github.ai/inference
-API_TOKEN=your_github_token
-```
-
-For Azure AI Foundry:
-```
-API_ENDPOINT=https://your-foundry-endpoint
-API_TOKEN=your_foundry_api_key
-```
-
 
 ## Getting Started
 
