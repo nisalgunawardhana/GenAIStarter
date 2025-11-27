@@ -31,7 +31,7 @@ cd GenAIStarter
 ### 3. Install .NET Dependencies
 ```bash
 # Restore all project dependencies
-dotnet restore
+dotnet restore GenAIStarter.sln
 
 # Or build all projects (which also restores dependencies)
 dotnet build

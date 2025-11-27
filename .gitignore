@@ -63,3 +63,4 @@ desktop.ini
 *.temp
 
 .env
+.fake
